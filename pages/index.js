@@ -7,6 +7,18 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
+        <script
+            type="text/javascript"
+            key="agent-tag-params"
+            // eslint-disable-next-line react/no-danger
+            dangerouslySetInnerHTML={{
+                __html: `
+            var bysideWebcare_webcare_id = "F15B000CB5";
+            var bysideWebcare_lang = "pt";
+        `,
+            }}
+        />
+        <script src="https://bydev1.byside-nos.local/agent/byside_webcare_src.js" type="text/javascript" key="agent-tag-url" />
       </Head>
 
       <main className={styles.main}>
