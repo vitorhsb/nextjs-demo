@@ -13,17 +13,17 @@ export default function Home() {
             // eslint-disable-next-line react/no-danger
             dangerouslySetInnerHTML={{
                 __html: `
-            var bysideWebcare_webcare_id = "F15B000CB5";
+            var bysideWebcare_webcare_id = "5708E2FC1C";
             var bysideWebcare_lang = "pt";
         `,
             }}
         />
-        <script src="https://bydev1.byside-nos.local/agent/byside_webcare_dev1_src.js" type="text/javascript" key="agent-tag-url" />
+        <script src="https://bypre1.byside-nos.local/agent/byside_webcare_pre1.js" type="text/javascript" key="agent-tag-url" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <a href="https://nextjs.org">PRE1!</a>
         </h1>
 
         <p className={styles.description}>
