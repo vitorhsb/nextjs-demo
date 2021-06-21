@@ -18,7 +18,7 @@ export default function Home() {
         `,
             }}
         />
-        <script src="https://bypre1.byside-nos.local/agent/byside_webcare_pre1.js" type="text/javascript" key="agent-tag-url" />
+        <script src="https://bypre1.byside.com/agent/byside_webcare_pre1.js" type="text/javascript" key="agent-tag-url" />
       </Head>
 
       <main className={styles.main}>
